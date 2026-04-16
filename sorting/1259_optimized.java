@@ -7,10 +7,8 @@ public class q1259 {
 
         int n = sc.nextInt();
 
-        int[] pares = new int[n];
-        int[] impares = new int[n];
-        int contPar = 0;
-        int contImpar = 0;
+        int[] pares = new int[n],impares = new int[n];
+        int contPar = 0,contImpar = 0;
 
         // Separate input into even and odd arrays
         for(int i = 0; i < n; i++){
@@ -58,6 +56,5 @@ public class q1259 {
             System.out.println(impares[i]);
         }
 
-        sc.close();
     }
 }
